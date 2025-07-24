@@ -16,12 +16,6 @@ No console required — it's fully playable in the browser!
 
 ---
 
-## 🖼️ Demo Preview
-
-![Game UI Preview](./screenshot.png) <!-- Optional: add screenshot of the game UI -->
-
----
-
 ## 🛠️ Tech Stack
 
 - **HTML5** – Structure
@@ -31,4 +25,9 @@ No console required — it's fully playable in the browser!
 ---
 
 ## 📂 Project Structure
+guess-the-number/
+├── index.html       # Main HTML structure
+├── style.css        # CSS file for styling the game UI
+├── script.js        # JavaScript file with game logic
+└── README.md        # Project documentation and instructions
 
