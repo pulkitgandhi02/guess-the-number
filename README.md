@@ -2,6 +2,9 @@
 
 An interactive web-based number guessing game built using **HTML**, **CSS**, and **JavaScript**.  
 No console required — it's fully playable in the browser!
+## 🔗 Live Demo
+👉 [Click here to play the game!](https://pulkit-guessing-game.netlify.app/)  
+Hosted on **Netlify** 
 
 ---
 
