@@ -1,0 +1,103 @@
+/* Reset and base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #f7f9fc, #e3f2fd);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Main container */
+.game-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 350px;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.game-box:hover {
+  transform: scale(1.01);
+}
+
+/* Title and text */
+h1 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #2c3e50;
+}
+
+/* Input */
+input[type="text"] {
+  width: 90%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 2px solid #dcdde1;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+/* Button */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Message + Attempts */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #34495e;
+  min-height: 30px;
+}
+
+#attempts {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+}
+
+.subtext {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #2980b9;
+}
